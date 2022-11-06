@@ -67,8 +67,8 @@ function resetcar() {
 }
 function display1() {
 
-    var dicg = [{ name: "Neil", r_No: "20cs1037", dob: "19-05-1922" },
-    { name: "david", r_No: "20cs2041", dob: "19-06-2003" }];
+    var dicg = [{ name: "Anna", r_No: "URK20CS1141", dob: "20-09-2002" },
+    { name: "Joanna", r_No: "URK23CS1024", dob: "02-07-2005" }];
 
     for (var i = 0; i < dicg.length; i++) {
         if (parseInt(dicg[i].dob.split("-")[2]) < 2000) {
