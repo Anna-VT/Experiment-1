@@ -4,7 +4,7 @@ const fs = require('fs');
 const server = http.createServer(function (req, res) {
     if (req.url === '/') {
         res.writeHead(200, { "Content-Type": "text/html" });
-        fs.createReadStream('./index.html').pipe(res);
+        fs.createReadStream('./Exp10.html').pipe(res);
     }
     else if (req.url === '/form' && req.method == 'POST') {
         var rawData = '';
